@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bill Generator for your local business
 
-## Getting Started
+A simple, user-friendly bill generation application built with Next.js that allows Anand Communication to create, preview, save, and export customer bills.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Create Bills**: Generate professional invoices with custom details
+- **Preview**: See how your bill will look before saving
+- **Save Bills**: Store bills locally in your browser
+- **Export to Excel**: Export all your saved bills to Excel format
+- **Responsive Design**: Works on desktop and mobile devices
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js with React
+- **Styling**: Tailwind CSS
+- **Storage**: Browser localStorage
+- **Export**: XLSX library for Excel export
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+### Creating a Bill
 
-To learn more about Next.js, take a look at the following resources:
+1. Fill in your business details in the form (these will be saved for future bills)
+2. Enter customer information
+3. Add items with descriptions, quantities, and prices
+4. Set tax rate if applicable
+5. Add any notes
+6. Click "Preview" to see how your bill will look
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Managing Bills
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Save Bill**: After previewing, click "Save Bill" to store it locally
+- **View Saved Bills**: Click "Saved Bills" to see all your previous invoices
+- **Export to Excel**: From the Saved Bills view, click "Export to Excel" to download all bills as a spreadsheet
