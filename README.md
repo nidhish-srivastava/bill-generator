@@ -7,7 +7,7 @@ A simple, user-friendly bill generation application built with Next.js that allo
 - **Create Bills**: Generate professional invoices with custom details
 - **Preview**: See how your bill will look before saving
 - **Save Bills**: Store bills locally in your browser
-- **Export to Excel**: Export all your saved bills to Excel format
+- **Export to Excel**: Export all your saved bills to Excel format or share to whatsapp
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## Technology Stack
@@ -33,3 +33,4 @@ A simple, user-friendly bill generation application built with Next.js that allo
 - **Save Bill**: After previewing, click "Save Bill" to store it locally
 - **View Saved Bills**: Click "Saved Bills" to see all your previous invoices
 - **Export to Excel**: From the Saved Bills view, click "Export to Excel" to download all bills as a spreadsheet
+- **Share to Whatsapp** : From the Saved Bills view, click "Share to Whatsapp" to share to whatsapp
