@@ -1,6 +1,6 @@
 # Bill Generator for your local business
 
-A simple, user-friendly bill generation application built with Next.js that allows Anand Communication to create, preview, save, and export customer bills.
+A simple, user-friendly bill generation application built with Next.js that allows your small business to create, preview, save, and export customer bills.
 
 ## Features
 
